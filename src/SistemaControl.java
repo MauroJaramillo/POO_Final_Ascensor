@@ -35,4 +35,9 @@ public class SistemaControl {
     public void ejecutar() {
         ascensor.mover();
     }
+
+    public Ascensor getAscensor() {
+        return ascensor;
+    }
+
 }
